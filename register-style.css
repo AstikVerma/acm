@@ -1,10 +1,9 @@
-/* Reset some default styles */
+
 body, h1, form {
     margin: 0;
     padding: 0;
 }
 
-/* Style the background image and center the content */
 .register {
     background-size: cover;
     background-position: center;
@@ -14,36 +13,27 @@ body, h1, form {
     position: fixed;
 }
 
-/* Style the h1 element */
-/* h1 {
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    font-size: 70px;
-    margin-bottom: 20px;
-} */
-/* Style the "Registration" text */
 h1 {
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
-    font-size: 3rem; /* Increase font size */
+    font-size: 3rem;
     margin-bottom: 20px;
-    text-transform: uppercase; /* Convert text to uppercase */
-    color: #ffffff; /* Change text color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+    text-transform: uppercase; 
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
-/* Style the form */
+
 form {
     max-width: 400px;
     margin: 0 auto;
 }
 
-/* Style form labels */
+
 label {
     display: block;
     margin-bottom: 8px;
 }
 
-/* Style input fields */
 input[type="text"],
 input[type="password"],
 input[type="email"] {
@@ -55,7 +45,6 @@ input[type="email"] {
     font-size: 1rem;
 }
 
-/* Style the submit button */
 input[type="submit"] {
     background-color: #007BFF;
     color: #fff;
@@ -66,12 +55,10 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-/* Style the submit button on hover */
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Media query for responsiveness */
 @media (max-width: 768px) {
     .register {
         padding: 20px;
