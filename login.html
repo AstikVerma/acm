@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login background-image" style="background-image: url(img4.jpg); ">
+        <h1>Login</h1>
+        <div class="imgcontainer">
+            <img src="img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+        <form action="login.php" method="post">
+            <label for="username"></label>
+            <input type="text" name="username" placeholder="Username" id="username" required>
+            <label for="password"></label>
+            <input type="password" name="password" placeholder="Password" id="password" required>
+            <a class="link" href="register.html">Create Account</a>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="register-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="register background-image" style="background-image: url(img4.jpg); ">
+        <h1>Registration</h1>
+        <div class="imgcontainer">
+            <img src="img_avatar2.png" alt="Avatar" class="avatar">
+          </div>
+        <form action="register.php" method="post">
+            <label for="username"> </label>
+            <input type="text" name="username" placeholder="Username" id="username" required>
+            <label for="password"> </label>
+            <input type="password" name="password" placeholder="Password" id="password" reuqired>
+            <label for="email"> </label>
+            <input type = "email" name="email" placeholder="Email" id="email" required>
+            <a class="link"href="login.html">Registered User</a>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
